@@ -1,5 +1,5 @@
-/*
-px: medida absoluta
+
+/*px: medida absoluta
   - Fácil de manejar
   - No recomendado para responsive (tablets, celulares, smartwatchs, etc)
 em: medida relativa al padre
@@ -7,7 +7,7 @@ em: medida relativa al padre
 rem: medida relativa al root
   - Fácil de manejar a excepción de las medidas (por las conversiones a px)
   - Recomendado para responsive.
-  - Se puede volver fácil de manejar con un hack.
+  - Se puede volver fácil de manejar con un hack.*/
 
   html {
     font-size: 62.5%;
@@ -15,9 +15,12 @@ rem: medida relativa al root
 
   body {
     font-size: 16px;
+    font-family: 'krub', sans-serif;
+    background-image: linear-gradient(to top, var(--gray-light) 0%, var(--white) 100%);
+
   }
 
-  Ahora 1rem = 10px
+  /*Ahora 1rem = 10px*/
 
   html {
   font-size: 62.5%;
@@ -33,7 +36,7 @@ rem: medida relativa al root
   *:after {
     box-sizing: inherit;
   }
-*/
+
 
 :root {
   --white: #FFFFFF;
